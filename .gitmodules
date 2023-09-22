@@ -7,3 +7,15 @@
 [submodule "aws-robomaker-small-warehouse-world"]
 	path = aws-robomaker-small-warehouse-world
 	url = https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git
+[submodule "fuse_gazebo_and_maps"]
+	path = fuse_gazebo_and_maps
+	url = https://github.com/BastianSolutionsRandD/fuse_gazebo_and_maps.git
+[submodule "sorla_humble/fuse_gazebo_and_maps"]
+	path = sorla_humble/fuse_gazebo_and_maps
+	url = https://github.com/BastianSolutionsRandD/fuse_gazebo_and_maps.git
+[submodule "fuse_shania_ros2"]
+	path = fuse_shania_ros2
+	url = https://github.com/BastianSolutionsRandD/fuse_shania_ros2.git
+[submodule "warehouse_simulation_toolkit"]
+	path = warehouse_simulation_toolkit
+	url = https://github.com/wh200720041/warehouse_simulation_toolkit.git

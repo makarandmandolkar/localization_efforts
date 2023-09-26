@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
   <model name="cylinder_retroreflector">
-    <static>true</static>
+    <static>false</static>
     <link name="link">
       <pose>0 0 0 0 0 0</pose> <!-- Adjust the pose as needed -->
       <collision name="collision">
         <geometry>
           <cylinder>
-            <radius>0.075</radius> <!-- Half of the outer diameter -->
+            <radius>0.025</radius> <!-- Half of the outer diameter -->
             <length>1.0</length>   <!-- Height -->
           </cylinder>
         </geometry>
@@ -16,13 +16,13 @@
         <geometry>
           <cylinder>
             <radius>0.025</radius> <!-- Half of the outer diameter -->
-            <length>0.5</length>   <!-- Height -->
+            <length>1.0</length>   <!-- Height -->
           </cylinder>
         </geometry>
         <material>
           <ambient>1 1 1 1</ambient> <!-- White ambient color -->
           <diffuse>1 1 1 1</diffuse> <!-- White diffuse color -->
-          <specular>0.5 0.5 0.5 1</specular> <!-- Slight specular reflection -->
+          <specular>0.8 0.8 0.8 1</specular> <!-- Slight specular reflection -->
         </material>
       </visual>
     </link>

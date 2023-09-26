@@ -6,6 +6,8 @@ git submodule init
 
 git submodule update
 
+colcon build --symlink-install
+
 
 . /usr/share/gazebo/setup.sh
 

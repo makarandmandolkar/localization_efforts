@@ -7,7 +7,7 @@
       <collision name="collision">
         <geometry>
           <cylinder>
-            <radius>0.025</radius> <!-- Half of the outer diameter -->
+            <radius>0.04</radius> <!-- Half of the outer diameter -->
             <length>1.0</length>   <!-- Height -->
           </cylinder>
         </geometry>
@@ -15,7 +15,7 @@
       <visual name="visual">
         <geometry>
           <cylinder>
-            <radius>0.025</radius> <!-- Half of the outer diameter -->
+            <radius>0.04</radius> <!-- Half of the outer diameter -->
             <length>1.0</length>   <!-- Height -->
           </cylinder>
         </geometry>

@@ -4,6 +4,10 @@ git clone --recursive https://github.com/makarandmandolkar/localization_efforts.
 
 move to the selected branch
 
+
+source /usr/share/bash-completion/completions/git
+
+
 git submodule init
 
 git submodule update
